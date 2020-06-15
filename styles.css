@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: #345aad;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 28px;
+
+  padding: 20px 5%;
+}
+
+#content {
+  margin: 2% 5%;
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 700px;
+  width: 900px;
+}
+
+.title {
+  font-size: 24px;
+  font-family: "Varela Round", sans-serif;
+}
+
+.tooltip {
+  background-color: white;
+  width: 180px;
+  padding: 8px;
+  border-radius: 5px;
+
+  font-family: "Varela Round", sans-serif;
+  font-size: 11px;
+  text-align: center;
+}

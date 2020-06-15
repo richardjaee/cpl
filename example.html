@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbfWSEbc-boja5ItPDfCG4PP4hZ1lF040&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script src="./app.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <p>Bruins without Borders</p>
+      </div>
+      <div id="content">
+        <p class="title">Homelessness Data</p>
+        <div id="map"></div>
+        <div id="capture"></div>
+      </div>
+    </div>
+  </body>
+</html>
